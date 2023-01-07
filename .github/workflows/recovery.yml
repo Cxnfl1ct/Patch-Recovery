@@ -27,8 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget ${{github.event.inputs.RECOVERY_URL}}
-
+        wget ../recovery.img.lz4
     - name: Patch Process-1
       run: |
         chmod a+x script1.sh
