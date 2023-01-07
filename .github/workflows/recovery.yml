@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget ../recovery.img.lz4
+        wget file:///home/runner/work/Patch-Recovery/Patch-Recovery/recovery.img.lz4
     - name: Patch Process-1
       run: |
         chmod a+x script1.sh
